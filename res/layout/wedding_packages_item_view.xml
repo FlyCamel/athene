@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="11dip">
+    
+    <ImageView 
+        android:id="@+id/photo"
+        android:layout_width="135dip"
+        android:layout_height="83dip"
+        android:layout_marginRight="8dip"
+        android:scaleType="centerCrop"/>
+    
+    <TextView 
+        android:id="@+id/boutique"
+        android:layout_width="16dip"
+        android:layout_height="16dip"
+        android:layout_marginTop="4dip"
+        android:layout_marginRight="4dip"
+        android:gravity="center"
+        android:layout_toRightOf="@id/photo"
+        android:textSize="@dimen/text_size_12"
+        android:textColor="@color/white"
+        android:text="@string/label_boutique"
+        android:background="@color/red"/>
+    
+    <TextView 
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_16"
+        android:textColor="@color/main_black"
+        android:layout_toRightOf="@id/boutique"
+        android:maxLines="2" />
+
+    <TextView 
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/main_black"
+        android:textSize="@dimen/text_size_14"/>
+</RelativeLayout>

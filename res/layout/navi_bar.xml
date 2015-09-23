@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:naviitem="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="54dip"
+    android:layout_alignParentBottom="true"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <com.athene.widgets.NaviItem
+        android:id="@+id/ni_main"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        naviitem:sel_color="@android:color/holo_red_light"
+        naviitem:sel_icon="@drawable/navi_main_sel"
+        naviitem:text="@string/navi_main"
+        naviitem:unsel_color="@android:color/black"
+        naviitem:unsel_icon="@drawable/navi_main_unsel" />
+
+    <com.athene.widgets.NaviItem
+        android:id="@+id/ni_diy"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        naviitem:sel_color="@android:color/holo_red_light"
+        naviitem:sel_icon="@drawable/navi_diy_sel"
+        naviitem:text="@string/navi_diy"
+        naviitem:unsel_color="@android:color/black"
+        naviitem:unsel_icon="@drawable/navi_diy_unsel" />
+
+    <com.athene.widgets.NaviItem
+        android:id="@+id/ni_show"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        naviitem:sel_color="@android:color/holo_red_light"
+        naviitem:sel_icon="@drawable/navi_show_sel"
+        naviitem:text="@string/navi_show"
+        naviitem:unsel_color="@android:color/black"
+        naviitem:unsel_icon="@drawable/navi_show_unsel" />
+
+    <com.athene.widgets.NaviItem
+        android:id="@+id/ni_account"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        naviitem:sel_color="@android:color/holo_red_light"
+        naviitem:sel_icon="@drawable/navi_account_sel"
+        naviitem:text="@string/navi_account"
+        naviitem:unsel_color="@android:color/black"
+        naviitem:unsel_icon="@drawable/navi_account_unsel" />
+
+</LinearLayout>

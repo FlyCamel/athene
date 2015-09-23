@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:src="@color/list_divider_color" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="11dip"
+        android:src="@color/plate_divider_color" />
+
+</LinearLayout>

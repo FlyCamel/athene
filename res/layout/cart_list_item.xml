@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:minHeight="75dip"
+    android:background="@color/main_green"
+    android:clickable="true"
+    android:focusable="true"
+    android:id="@+id/rl_cart_item">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_selected"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:layout_centerVertical="true"/>
+
+    <ImageView
+        android:id="@+id/iv_product"
+        android:layout_width="65dip"
+        android:layout_height="65dip"
+        android:layout_marginTop="6dip"
+        android:layout_marginLeft="10dip"
+        android:layout_toRightOf="@id/cb_selected"
+        android:src="@drawable/list_item_topic_default"
+        android:layout_centerVertical="true"
+        android:background="@color/yellow"
+        android:scaleType="fitXY"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dip"
+        android:layout_toRightOf="@id/iv_product">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Unified Modeling Language"
+            android:id="@+id/tv_title" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="$ 50,000"
+            android:id="@+id/tv_price" />
+    </RelativeLayout>
+
+</RelativeLayout>

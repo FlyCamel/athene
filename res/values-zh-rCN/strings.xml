@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Athene</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_my_wedding">MyWedding</string>
+    <string name="title_activity_my_cart">MyCart</string>
+    <string name="title_activity_wedding_show">WeddingShow</string>
+    <string name="title_activity_wedding_diy">WeddingDIY</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="navi_main">首页</string>
+    <string name="navi_show">婚礼秀</string>
+    <string name="navi_diy">婚礼DIY</string>
+    <string name="navi_cart">Cart</string>
+    <string name="navi_account">我的</string>
+    <string name="title_theme_wedding">主题婚礼</string>
+    <string name="title_wedding_packages">婚礼套餐</string>
+    <string name="title_wedding_diy">婚礼DIY</string>
+    <string name="title_wedding_photo">婚礼图片</string>
+    <string name="title_wedding_video">婚礼视频</string>
+    <string name="title_lucky_day">黄道吉日</string>
+    <string name="title_wedding_show">婚礼秀</string>
+    <string name="see_more">查看更多</string>
+    <string name="label_boutique">精</string>
+    <string name="title_coupons">优惠券</string>
+    <string name="title_my_favorite">我的收藏</string>
+    <string name="label_my_order">我的订单</string>
+    <string name="label_my_evaluation">我的评价</string>
+    <string name="label_my_diy">我的DIY</string>
+    <string name="label_wedding_diy">婚礼DIY</string>
+    <string name="label_groom">新郎</string>
+    <string name="label_bride">新娘</string>
+    <string name="label_sign_desk">签到台</string>
+    <string name="label_welcome_bg">迎宾背景</string>
+    <string name="label_main_stage">主舞台</string>
+    <string name="label_wedding_car">婚车</string>
+</resources>

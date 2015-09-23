@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="35dip"
+        layout="@layout/cart_header_view"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+<!--
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+-->
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fadingEdge="vertical"
+                android:id="@+id/lv_cart_list" />
+<!--
+            <include layout="@layout/cart_list_item" />
+-->
+<!--
+        </LinearLayout>
+    </ScrollView>
+-->
+</LinearLayout>

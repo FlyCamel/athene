@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:naviitem="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="45dip"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="54dip"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <com.athene.widgets.DIYNaviItem
+            android:id="@+id/ni_wedd"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            naviitem:sel_color="@android:color/holo_red_light"
+            naviitem:sel_icon="@drawable/diy_navi_item_line_focus"
+            naviitem:text="@string/label_wedding_diy"
+            naviitem:unsel_color="@android:color/black"
+            naviitem:unsel_icon="@drawable/diy_navi_item_line" />
+
+        <com.athene.widgets.DIYNaviItem
+            android:id="@+id/ni_my"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            naviitem:sel_color="@android:color/holo_red_light"
+            naviitem:sel_icon="@drawable/diy_navi_item_line_focus"
+            naviitem:text="@string/label_my_diy"
+            naviitem:unsel_color="@android:color/black"
+            naviitem:unsel_icon="@drawable/diy_navi_item_line" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="56dip" >
+
+        <GridView
+            android:id="@+id/grid_wedding_diy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dip"
+            android:layout_marginRight="22dip"
+            android:numColumns="3"
+            android:stretchMode="columnWidth" />
+    </FrameLayout>
+
+</LinearLayout>

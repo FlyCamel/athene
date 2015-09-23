@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NaviItem">
+        <attr name="text" format="reference" />
+        <attr name="sel_icon" format="reference" />
+        <attr name="unsel_icon" format="reference" />
+        <attr name="sel_color" format="reference" />
+        <attr name="unsel_color" format="reference" />
+        <attr name="selected" format="boolean" />
+    </declare-styleable>
+</resources>

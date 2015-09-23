@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Common Colors {@ -->
+    <color name="white40">#40FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black10">#19000000</color>
+    <color name="gray">#808080</color>
+    <color name="red">#FF0000</color>
+    <color name="gold">#FFD700</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000FF</color>
+    <color name="purple">#800080</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="orange">#FFA500</color>
+    <color name="lemonyellow">#FFFACD</color>
+    <color name="graywhite">#F5F5F5</color>
+    <color name="grayslate">#708090</color>
+    <color name="lightblue">#0083FF</color>
+
+    <color name="main_green">#40AA53</color>
+    <color name="main_gray">#888888</color>
+    <color name="main_black">#353535</color>
+    <color name="main_purple">#576B95</color>
+    <color name="actionbar_background">@color/main_green</color>
+    <color name="transparent">#00000000</color>
+    <color name="window_background">#EBEBEB</color>
+
+    <color name="comment_yellow">#FFFFEE</color>
+
+    <color name="link_color">#1d6a2a</color>
+
+    <color name="main_background">#ffebedf0</color>
+    <color name="list_divider_color">#e7e7e7</color>
+    <color name="plate_divider_color">#f0f0f0</color>
+    <color name="black_overlay">#66000000</color>
+    <!-- Common Colors @} -->
+
+    <color name="list_item_background_normal">@color/white</color>
+
+    <color name="my_information_option_pressed">#18be40</color>
+
+    <color name="list_item_background_pressed">#efefef</color>
+</resources>
