@@ -4,13 +4,51 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dip"
+        android:paddingLeft="17dip"
+        android:paddingRight="17dip"
+        android:background="@color/white" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/title_mine"
+            android:textColor="@color/main_black"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size_16" />
+
+        <ImageView
+            android:id="@+id/letter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="6dip"
+            android:src="@drawable/ic_letter" />
+
+        <TextView
+            android:id="@+id/letter_count"
+            android:layout_width="12dip"
+            android:layout_height="12dip"
+            android:layout_alignRight="@+id/letter"
+            android:layout_alignTop="@+id/letter"
+            android:background="@drawable/bg_letter_count"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_9" />
+    </RelativeLayout>
+
     <include layout="@layout/account_header_view" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="68dip"
-        android:orientation="horizontal"
-        android:background="@color/white" >
+        android:background="@color/white"
+        android:orientation="horizontal" >
 
         <LinearLayout
             android:layout_width="0dip"

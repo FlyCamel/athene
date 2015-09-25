@@ -4,7 +4,8 @@
     android:layout_height="54dip"
     android:layout_alignParentBottom="true"
     android:gravity="center"
-    android:orientation="horizontal" >
+    android:orientation="horizontal"
+    android:background="@color/white10" >
 
     <com.athene.widgets.NaviItem
         android:id="@+id/ni_main"

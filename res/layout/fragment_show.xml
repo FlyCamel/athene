@@ -5,7 +5,41 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-<!--     <ScrollView
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/title_activity_wedding_show"
+            android:textColor="@color/main_black"
+            android:textSize="@dimen/text_size_16"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/notify"
+            android:layout_width="wrap_content"
+            android:paddingLeft="6dip"
+            android:paddingRight="6dip"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_show_notify" />
+
+        <ImageView
+            android:id="@+id/edit"
+            android:layout_width="wrap_content"
+            android:paddingLeft="6dip"
+            android:paddingRight="6dip"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/notify"
+            android:src="@drawable/ic_show_edit" />
+    </RelativeLayout>
+    <!--
+         <ScrollView
         android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -15,21 +49,28 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical" > -->
+            android:orientation="vertical" >
+    -->
 
-<!--             <include
+
+    <!--
+                 <include
                 android:layout_width="match_parent"
                 android:layout_height="90dip"
                 layout="@layout/wedding_show_banner_view" />
             <include
-                layout="@layout/plate_divider" /> -->
-            <com.handmark.pulltorefresh.library.PullToRefreshListView
-                android:id="@android:id/list"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:dividerHeight="11dip"
-                android:divider="@color/list_divider_color" />
-        <!-- </LinearLayout>
-    </ScrollView> -->
+                layout="@layout/plate_divider" />
+    -->
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/list_divider_color"
+        android:dividerHeight="11dip" />
+    <!--
+    </LinearLayout>
+    </ScrollView>
+    -->
 
 </LinearLayout>

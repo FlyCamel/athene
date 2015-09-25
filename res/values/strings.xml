@@ -53,4 +53,5 @@
     <string name="label_welcome_bg">Welcome background</string>
     <string name="label_main_stage">Main stage</string>
     <string name="label_wedding_car">Wedding car</string>
+    <string name="title_mine">Mine</string>
 </resources>
